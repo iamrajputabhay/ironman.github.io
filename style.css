@@ -1,0 +1,115 @@
+* {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+body {
+    overflow: hidden;
+}
+.img-background {
+            height: 660px;
+            width: 100vw;
+            position: absolute;
+        }
+.container {
+            width:100vw;
+            height: 100vh;
+            background-color: white;
+        }
+ #side-chick {
+                position: relative;
+                top:165px;
+                left: 1200px;
+                height: 250px;
+                width: 230px;
+                animation: side 2s linear infinite;
+      }
+#main-char {
+            position: relative;
+            top:420px;
+            right:0px;
+            height: 250px;
+            width: 250px;
+            transform:rotateY(180deg);
+        }
+            
+ .animate {
+            animation: main 1.6s linear;
+                
+         }
+@keyframes main {
+            0%{top:420px;transform:rotateY(180deg);}
+            40%{top:50px; transform:rotateY(180deg) rotate(-60deg); }
+            50%{top:50px; transform:rotateY(180deg) rotate(-60deg); }
+            100%{top:420px;transform:rotateY(180deg);}
+            
+        }
+        
+ @keyframes side {
+                0%{left:1200px;}
+                100%{
+                    left:-200px;
+                }
+            }
+.score-string {
+            position: relative;
+            top:-470px;
+            right:-1070px;
+            height: 60px;
+            width: 17%;
+            color: white;
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+            padding:10px;
+            border: 3px solid white;
+            
+        }
+.instructions {
+              color:#ed5140;
+              font-size: 1.1rem;
+              position: absolute; 
+              top:10px;
+              left:30px;
+}
+.game-over {
+            position: relative;
+            top:-20px;
+            right:-520px;
+            height: 120px;
+            width: 450px;
+            color: white;
+            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif;
+            
+}
+.game-over-image {
+            
+           height: 500px;
+           width: 500px;
+            position: absolute;
+            top:-100px;
+            right:420px;
+}
+ .dialogue {
+            position: absolute;
+            top:100px;
+            left:520px;
+            font-size: 3rem;
+            color:beige;
+            font-family: 'Poppins', sans-serif;
+        }
+.reload {
+          
+          position: absolute;
+          top:390px;
+          left:655px;
+        padding:12px;
+        border:4px solid black;
+        border-radius: 3px;
+    
+}
+
+
+
+
+
