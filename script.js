@@ -72,5 +72,5 @@ function gameOver() {
     }
 }
    
-setInterval(gameOver,500);
+setInterval(gameOver,20);
     
