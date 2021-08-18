@@ -1,2 +1,3 @@
 # ironman.github.io
-this is for a gsme
+this is a game built using vanilla javascript and css
+
